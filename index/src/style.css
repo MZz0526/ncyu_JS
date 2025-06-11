@@ -1,0 +1,59 @@
+/* 固定背景設定 */
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('https://images.pexels.com/photos/1346089/pexels-photo-1346089.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;  /* 📌 背景固定 */
+  background-position: center;
+  font-family: '微軟正黑體', sans-serif;
+}
+
+/* 導覽列樣式 */
+.ncyu {
+  list-style: none;
+  margin: 0;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.6);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  height: 60px;
+}
+
+/* 導覽按鈕樣式 */
+.btn {
+  margin-right: 20px;
+}
+
+.btn a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  padding: 10px 20px;
+  display: inline-block;
+  transition: 0.3s;
+}
+
+.btn a:hover {
+  background-color: #95bcf0;
+  color: black;
+  border-radius: 5px;
+}
+.box {
+  background-color: rgba(50, 50, 50, 0.6);
+  padding: 20px;
+  margin: 50px auto 0 auto; /* 與導覽列距離、水平置中 */
+  width: fit-content;         /* 根據內容自動調整寬度 */
+  color: white;
+  border-radius: 10px;
+  text-align: center;
+}
+
+
+.test1{
+  color:white;
+}

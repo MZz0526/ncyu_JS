@@ -1,0 +1,103 @@
+body {
+  margin: 0;
+  font-family: '微軟正黑體', sans-serif;
+  background-image: url('https://images.pexels.com/photos/1346089/pexels-photo-1346089.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  color: white;
+}
+
+.ncyu {
+  list-style: none;
+  margin: 0;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.6);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  height: 60px;
+}
+
+.logo-space {
+  color: white;
+  font-weight: bold;
+  margin-right: 30px;
+}
+
+.btn {
+  margin-right: 20px;
+}
+
+.btn a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  padding: 10px 20px;
+  display: inline-block;
+  transition: 0.3s;
+}
+
+.btn a:hover {
+  background-color: #95bcf0;
+  color: black;
+  border-radius: 5px;
+}
+
+.game-section {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.game-section h1 {
+  font-size: 2em;
+  margin-bottom: 40px;
+  text-shadow: 2px 2px 4px #000;
+}
+
+.game-poster {
+  position: relative;
+  height: 500px;
+  background-size: cover;
+  background-position: center;
+  margin: 30px auto;
+  border-radius: 15px;
+  overflow: hidden;
+  max-width: 900px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.6);
+}
+
+.poster-overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 30px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  box-sizing: border-box;
+  text-align: left;
+}
+
+.poster-overlay h2 {
+  margin: 0 0 10px;
+}
+
+.poster-overlay p {
+  margin: 0 0 10px;
+}
+
+.poster-overlay a {
+  display: inline-block;
+  margin-top: 10px;
+  background-color: #95bcf0;
+  padding: 8px 16px;
+  color: black;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: bold;
+}
+
+.poster-overlay a:hover {
+  background-color: #6ba4f0;
+}
