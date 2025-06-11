@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>liver</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <title>實況主介紹</title>
+  <link rel="stylesheet" href="liver.css" />
+</head>
+<body>
+  <ul class="ncyu">
+    <li class="btn"><a href="index.html">期末</a></li>
+    <li class="btn"><a href="music.html">音樂</a></li>
+    <li class="btn"><a href="liver.html">實況主</a></li>
+    <li class="btn"><a href="game.html">遊戲</a></li>
+  </ul>
+
+  <div class="box">
+    <h1>常看實況主</h1>
+
+    <div class="switch-buttons">
+      <button onclick="showSection('male')">男實況主</button>
+      <button onclick="showSection('female')">女實況主</button>
+    </div>
+
+    <!-- 男實況主區 -->
+    <div class="section active" id="male">
+      <div class="card-container">
+        <div class="card">
+          <img src="https://static-cdn.jtvnw.net/jtv_user_pictures/c1efdfa7-67e8-4080-9718-96897fbb1a89-profile_image-300x300.png" alt="男實況主1">
+          <h3>こるぺん</h3>
+          <p>透過ストグラ認識，喜歡看他的切片，偶爾會他的直播。</p>
+          <a href="https://x.com/kolupen?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank">X/Twitter</a><br>
+          <a href="https://www.twitch.tv/kolu_pen?lang=ja" target="_blank">Twitch</a><br>
+          <a href="https://www.youtube.com/@kolupen" target="_blank">Youtube</a>
+        </div>
+        <div class="card">
+          <img src="https://pbs.twimg.com/profile_images/1533358342642356226/VxXbNxF2_400x400.jpg" alt="男實況主2">
+          <h3>だるまいずごっど</h3>
+          <p>算是以前看的，很搞笑但最近很少出現，也是以切片為主，直播比較少看。</p>
+          <a href="https://x.com/darumaisgod" target="_blank">X/Twitter</a><br>
+          <a href="https://www.twitch.tv/darumaisgod" target="_blank">Twitch</a><br>
+          <a href="https://www.youtube.com/channel/UCRRKdB87Oj-FkqS4L9QQRiQ?view_as=subscriber" target="_blank">Youtube</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- 女實況主區 -->
+    <div class="section" id="female">
+      <div class="card-container">
+        <div class="card">
+          <img src="https://pbs.twimg.com/profile_images/1862586465571459072/IpEL8vR__400x400.png" alt="女實況主1">
+          <h3>憩居 ももあ</h3>
+          <p>最近常看的可愛女孩子，有點笨笨的，但常常有很棒的效果，常看直播。</p>
+          <a href="https://x.com/ikoimomoa?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank">X/Twitter</a><br>
+          <a href="https://www.twitch.tv/ikoi_momoa" target="_blank">Twitch</a><br>
+          <a href="https://www.youtube.com/channel/UCPcsJUA8PhOy3c4y1Q1eu3g" target="_blank">Youtube</a>
+        </div>
+        <div class="card">
+          <img src="https://link-meta.dcard.tw/v2/assets/images?signature=Ci8KIBQf0rbXIP24bRc413tXzO-uOX-WxMK6NAb2uez7LFH-EgsIiKTywQYQsJn6LA&url=https%3A%2F%2Fyt3.googleusercontent.com%2Fytc%2FAIdro_mWoZ_onsr56ZbnQQ21cnkYPfKTMJNHN3UOc1lmr44mTuc%3Ds900-c-k-c0x00ffffff-no-rj" alt="女實況主2">
+          <h3>星川サラ</h3>
+          <p>陽光開朗的可愛辣妹，聽到她開心的語氣總是會不自覺一起開心起來。</p>
+          <a href="https://x.com/sara_hoshikawa" target="_blank">X/Twitter</a><br>
+          <a href="https://www.twitch.tv/sara_hoshikawa" target="_blank">Twitch</a><br>
+          <a href="https://www.youtube.com/channel/UC9V3Y3_uzU5e-usObb6IE1w" target="_blank">Youtube</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    function showSection(id) {
+      document.querySelectorAll('.section').forEach(sec => {
+        sec.classList.remove('active');
+      });
+      document.getElementById(id).classList.add('active');
+    }
+  </script>
+</body>
+</html>
+<!-- partial -->
+  
+</body>
+</html>
